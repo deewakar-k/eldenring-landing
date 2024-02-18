@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+.nav_logo img{
+    display: block;
+    max-height: 38px;
+    transition: 0.2s;
+    width: auto;
+}
+
+img {
+    background-color: transparent;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 5px;
+    margin-top: 13px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 44px;
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+
+.key_img {
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.nav_item {
+    padding: 20px;
+}
+
+video {
+    object-fit: contain;
+}
