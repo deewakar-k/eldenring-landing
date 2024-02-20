@@ -1,3 +1,23 @@
 body {
-    background-color: black;
+    background: #0f1a12;
+}
+
+.navbar-brand img {
+    transition: transform .3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #C19848;
+}
+
+.nav-item {
+    padding: 0 6px;
 }
