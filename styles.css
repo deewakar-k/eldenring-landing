@@ -1,13 +1,18 @@
 body {
-    background: #0f1a12;
+    background-image: url(https://p325k7wa.twic.pics/high/elden-ring/elden-ring/00-page-setup/elden-ring-background-page-clouds.jpg?twic=v1/cover-min=1060x835);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+
 
 .navbar-brand img {
     transition: transform .3s ease;
 }
 
 .navbar-brand img:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 .navbar-nav .nav-link {
@@ -20,4 +25,17 @@ body {
 
 .nav-item {
     padding: 0 6px;
+}
+
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: -80px;
 }
