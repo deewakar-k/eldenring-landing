@@ -39,3 +39,61 @@ body {
     position: relative;
     top: -80px;
 }
+
+.info {
+    color: #fff;
+    align-items: center;
+}
+
+.label {
+    color: #C19848;
+}
+
+.release, .genre, .developer{
+    display: inline-block;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.asset{
+    font-size: 13px;
+    text-decoration: #fff;
+    line-height: 16px;
+}
+
+.award-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 140px;
+} 
+
+.col-lg-7{
+    position: relative;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 58.33333333%;
+}
+
+.video-img {
+    max-height: 800px;
+    height: auto;
+}
+
+.icon-player {
+    fill: #fff;
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    transition: opacity .3s, fill .3s;
+}
+
+.form-group {
+    padding: 8rem;
+}
+
+.intro-video {
+    padding-left: 2rem;
+}
